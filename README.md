@@ -1,1 +1,3 @@
-# Tecnicas
+# Tecnicas:
+# El ejercicio número dos de clase se encuentra en el archivo Main. Luego ir al archivo Program.CS, Gracias :D
+# P.S ay algunas groserías en los commit, ups...
