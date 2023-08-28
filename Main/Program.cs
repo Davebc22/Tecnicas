@@ -6,8 +6,10 @@ internal class Program
     {
         Console.WriteLine("Programa 1 \n");
         Ejercicio1();
-        Console.WriteLine("Programa 2 \n");
+        Console.WriteLine("\nPrograma 2 \n");
         Ejercicio2();
+        Console.WriteLine("\nPrograma 3 \n");
+        Ejercicio3();
     }
     public static void Ejercicio1() {
         Random random = new Random();
@@ -28,6 +30,13 @@ internal class Program
 
     public static void Ejercicio3()
     {
+        int h, m; 
+        double total; 
+        Console.WriteLine("Ingrese la cantidad de mujeres, luego la cantidad de hombres");
+        m = int.Parse(Console.ReadLine());
+        h = int.Parse(Console.ReadLine());
+        total = h + m;
+        Console.WriteLine("El porcentaje de mujeres es: " + (m*100/total) + "%, y el porcentaje de hombres es: " + (h*100 / total)+"%");
 
 
 
